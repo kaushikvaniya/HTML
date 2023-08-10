@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>general sibling selector</title>
+    <style>
+        section~h1 {
+            background-color: palevioletred;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>general sibling selector </h1>
+    <h2>symbol (~)</h2>
+    <p>select all elements that are next sibling of a specified elements</p>
+    <section>
+        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, debitis.</h1>
+        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, debitis.</h1>
+        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, debitis.</h1>
+        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, debitis.</h1>
+    </section>
+    <h1>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis, soluta. </h1>
+    <h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime, natus.</h1>
+    <h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime, natus.</h1>
+    <h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime, natus.</h1>
+</body>
+
+</html>
